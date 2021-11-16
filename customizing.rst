@@ -5,7 +5,9 @@
 Customizing
 ===========
 
-
+Flask-SQLAlchemy defines sensible defaults. However, sometimes customization is
+needed. There are various ways to customize how the models are defined and
+interacted with.
 
 These customizations are applied at the creation of the :class:`SQLAlchemy`
 object and extend to all models derived from its ``Model`` class.
